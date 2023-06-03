@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="index.js"></script>
+    
+</head>
+<body>
+  
+  <div class ="container">
+
+    <nav>
+      <div class="toprightsidebar">
+        <div class="w3-sidebar w3-bar-block" style="display:none;right:0;" id="mySidebar">
+            <div class="close-button">
+            <button onclick="w3_close()" class="w3-bar-item w3-button w3-large">&times;</button>
+        </div>
+           <div class="element">
+            <a href="index.html" class="w3-bar-item w3-button">Home</a>
+            <a href="#section03" onclick="w3_close()" class="w3-bar-item w3-button">About Me</a>
+            <a href="#section04" onclick="w3_close()" class="w3-bar-item w3-button">Projects</a>
+            <a href="#section05" onclick="w3_close()" class="w3-bar-item w3-button">Skills</a>
+            <a href="#section06" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
+        </div>
+          </div>
+          <div class="w3-teal">
+            <button class="w3-button w3-teal w3-xlarge w3-right" onclick="w3_open()">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </button>
+          </div>
+        </div>
+    </nav>
+
+    <div class ="main hidden">
+        <div class="infocontainer">
+          <div class="devpic">
+            <img src="shivam1.png" alt="Shivam Shahane">
+           
+        </div>
+         <div class="devinfo">
+             <div class="hello">Hello  <img src="hello.png" alt="smile"></div> 
+             <div class ="name">I'm Shivam Shahane</div>
+             <div class="quality">a Fullstack Web Developer</div>
+             <section id="section02" class="demo">
+              <a href="#section03"><span></span>Scroll Down<img src="Down.png" alt="smile"></a>
+            </section>
+         </div>
+     </div>
+    
+      <section id="section03" class="hidden">
+        <div class ="about">About Me</div>
+        <div class="allow_me">Allow me to introduce myself </div>
+        <div class="Introduction">
+          <div class="Introo hidden">
+           <p>I'm obsessed with making things and even more obsessed with making things better.
+             After graduating from the Swami Ramanand Terth University, I've been actively involved in the web design community.
+             I have designed my own portfolio website, Quick CSS animation effect, Amazing working analog and digital clock design using Html CSS and Javascript.
+             I'm a Full Stack Web Developer, I love to implement the logic in programming and making pixel magic in photoshop and turning it into beautiful,semantic HTML &CSS.
+             My interests,however,extend beyond the web and I love to play & watch the cricket, making strategy. I even love to help people.
+           </p>
+          </div>
+          <div class = "buttons hidden">
+            <a href="https://docs.google.com/document/d/1pIa-NAVTHKbBLLUCxuYpUcgNByZqyexmiPDbODBmmEs/edit?usp=share_link" target="_blank">
+               <button>Resume</button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="section04" class="hidden">
+        <div class="project">
+            <div class="My_Project">Project</div>
+    
+            <div class="GridContainer">
+              <div class="FinalYearCard hidden">
+                 <h4><b>Online study hub</b></h4>
+                 <div class="containerCard">
+                        Shivam Shahane
+                   <p>This a android app developed for 8th,9th and 10th student to help their academics study materials.</p> 
+                 </div>
+              </div>
+     
+              <div class="gamecard hidden">
+                 <h4><b>Connect4game</b></h4>
+                 <div class="containerCard">
+                     Shivam Shahane
+                <p>This a Java based game where we want to connect 4 dots in a series and opponent try to resist it.</p> 
+              </div>
+                 </div>
+     
+              <div class="websitecard hidden">
+                 <h4><b>PGLife</b></h4>
+                 <div class="containerCard">
+                     Shivam Shahane
+                <p>This website developed to find available PG rooms in nearby area.</p> 
+              </div>
+                 </div>
+             </div>
+ 
+             <div class="Grid2Container">
+              <div class="css_effectcard hidden">
+                 <h4><b>Quick CSS animation effect</b></h4>
+                 <div class="containerCard">
+                     Shivam Shahane
+                <p>Some interesting Quick CSS effect that should makes webpages attractive such as infinity effect, rotating Circle,etc</p> 
+              </div>
+                 </div>
+     
+              <div class="clockcard hidden">
+                 <h4><b>Working analog and digital clock</b></h4>
+                 <div class="containerCard">
+                     Shivam Shahane
+                <p>This HTML and CSS effect shows time on analog and digital clock.</p> 
+              </div>
+                 </div>
+               </div>
+    
+        </div>
+      </section>
+        
+      <section id="section05" class="hidden">
+           <div class="Skii">
+            <h1>Skills</h1>
+            <div class="lookup">Look what can I do</div>
+            <div class="grid-container">
+                <div class="CPP hidden"><img src="C++.png" alt="smile"></div>
+                <div class="Java hidden"><img src="Java.jpg" alt="smile"></div>
+                <div class="Spring hidden"><img src="spring-framework.png" alt="smile"></div>
+                <div class="HTML hidden"><img src="HTML.png" alt="smile"></div>  
+                <div class="CSS hidden"><img src="CSS.png" alt="smile"></div>
+                <div class="JS hidden"><img src="JS.png" alt="smile"></div>
+                <div class="React hidden"><img src="React.png" alt="smile"></div>
+                <div class="DBMS hidden"><img src="DBMS.png" alt="smile"></div>
+              </div>
+            </div>
+      </section>
+        
+      <section id="section06" class="hidden">
+          <div class="ctt">
+            <h1>Get in touch  <img src="call-me-hand.png" alt="smile"></h1>
+            <div class="get_in_touch hidden">
+              <div class="leftget">
+               <div class ="email hidden"><img src="email.jpg" alt="smile"><a href="mailto:shivamshahane168@gmail.com" target="_blank"> shivamshahane168@gmail.com</a></div>
+              <div class="Phone_No hidden"><img src="phone.png" alt="smile"><a href="https://api.whatsapp.com/send?phone=9307899396" target="_blank">9307899396</a></div>
+            </div>
+                <div class="socailmedia hidden">
+                  <a href="https://www.linkedin.com/in/shivam-shahane-809017220" target="_blank" class="fa fa-linkedin hidden"></a>
+                  <a href="https://www.instagram.com/_free_spirited_guy/" target="_blank" class="fa fa-instagram hidden"></a>
+                  <a href="https://twitter.com/ShivamShahane9" target="_blank" class="fa fa-twitter hidden"></a>
+                </div>
+              </div>
+          </div>
+        </section>
+
+
+    </div>
+</div>    
+
+<script>
+    function w3_open() {
+      document.getElementById("mySidebar").style.width = "100%";
+      document.getElementById("mySidebar").style.display = "block";
+    }
+    
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    
+    </script>
+    
+</body>
+</html>
