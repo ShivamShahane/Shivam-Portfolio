@@ -777,6 +777,7 @@ h1 img{
     align-items: center;
     display:flex;
     justify-content: space-between;
+    line-height: 1cm;
 }
 .leftget{
     justify-content: flex-start;
@@ -795,7 +796,6 @@ h1 img{
 .Phone_No{
     font-size: 30px;
     font-family: 'Caveat', cursive;
-    margin-left: 1cm;
 }
 .Phone_No img{
     width: 23px;
