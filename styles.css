@@ -388,7 +388,6 @@ scroll-behavior: smooth;
 .about{
   font-family: sans-serif;
     text-align: left;
-    
     color: black;
     font-size: 40px;
     font-weight: bold;
@@ -834,7 +833,7 @@ h1 img{
   @media only screen and (max-width:480px) {
     /* For mobile phones: */
     .container{
-      width: 150%;
+      width: 100%;
 }
 
 
@@ -860,10 +859,11 @@ h1 img{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  line-height: 1cm;
   
 }
 .hello, .name, .quality{
-  font-size: 30px;
+  font-size: 25px;
   padding-top: 2%;
 }
 .quality::after{
@@ -884,10 +884,17 @@ h1 img{
   transform-origin: bottom left;
 }
 .about{
-  margin-left: 2rem;
+  
+  justify-content: center;
+    text-align: center;
+      font-size: 30px;
+      font-weight: bold;
   animation-name: mymove;
   animation-duration: 2s;
 
+}
+.about:after {
+  display: none;
 }
 @keyframes mymove {
   from {
@@ -897,17 +904,14 @@ h1 img{
      margin: left 2rem;;}
 }
 
-.about:after {
-  content: "";
-  display: block;
-  width: 130px;
-  height: 5px;
-  background: rgb(87, 111, 235);
-  top: 50%;
-  position: absolute;
-}
 .allow_me{
-  margin-left: 2.5rem;
+  
+  justify-content: center;
+    text-align: center;
+      font-size: 16px;
+      padding-bottom: 20px;
+      text-decoration: underline rgb(87, 111, 235);
+      text-underline-offset: 25px;
 }
 .Introduction{
   display: flex;
@@ -924,32 +928,93 @@ h1 img{
     align-items: center;
     color: black;
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 12px;
     padding-bottom: 2rem;
     
 }
 
+.My_Project{
+      font-size: 30px;
+  }
+  
 .GridContainer{
  align-items: center;
  justify-content: center;
   grid-template-columns: auto;
+  justify-content: center;
+  width: 100%;
 }
 .Grid2Container{
   align-items: center;
  justify-content: center;
   grid-template-columns: auto;
+  justify-content: center;
+  width: 100%;
 }
 .Skii h1{
-  margin-left: 2rem;
+  justify-content: center;
+    text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+}
+
+.Skii h1:after {
+  display: none;
 }
 .Skii .lookup{
-  margin-left: 2.5rem;
+  justify-content: center;
+    text-align: center;
+      font-size: 16px;
+      padding-bottom: 20px;
+      text-decoration: underline rgb(87, 111, 235);
+      text-underline-offset: 25px;
+      margin-bottom: 50px;
+}
+.CPP img{
+  width: 50px;
+  height: 50px;
+}
+.Java img{
+  width: 50px;
+  height: 50px;
+}
+.Spring img{
+  width: 50px;
+  height: 50px;
+}
+.HTML img{
+  width: 50px;
+  height: 50px;
+}
+.CSS img{
+  width: 50px;
+  height: 50px;
+}
+.JS img{
+  width: 50px;
+  height: 50px;
+}
+.React img{
+  width: 50px;
+  height: 50px;
+}
+.DBMS img{
+  width: 50px;
+  height: 50px;
+}
+.grid-container {
+  grid-template-rows: 125px 125px;
+  margin-bottom: 1.8cm;
+ 
 }
 .ctt h1{
-  font-size: 30px;
-  margin: 100px auto;
-  max-width: 500px;
-  
+  justify-content: center;
+    text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      padding-bottom: 20px;
+      text-decoration: underline rgb(87, 111, 235);
+      text-underline-offset: 25px;
 }
 h1 img{
   width: 30px;
@@ -960,35 +1025,26 @@ h1 img{
 .leftget{
   padding-bottom: 2rem;
 }
-
+.email{
+  font-size: 16px;
+}
+.Phone_No{
+  font-size: 24px;
+}
 .ctt h1:before {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 5px;
-  background: rgb(87, 111, 235);
-  left: 0.5rem;
-  top: 50%;
-  position: absolute;
+  display: none;
 }
 .ctt h1:after {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 5px;
-  background: rgb(87, 111, 235);
-  right: 0.5rem;
-  top: 50%;
-  position: absolute;
+  display: none;
 }
 .w3-teal{
-  margin-right: 14%;
+  margin-right: 16%;
 }
     }
 
-@media only screen and (max-width: 767px) and (orientation: landscape){
+@media only screen and (max-width: 767px)  and (min-width: 481px)and (orientation: landscape){
   .container{
-    width: 150%;
+    width: 100%;
 }
 
 
