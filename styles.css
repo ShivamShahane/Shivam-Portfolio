@@ -936,6 +936,9 @@ h1 img{
 .My_Project{
       font-size: 30px;
   }
+  .containerCard p{
+    font-size: 12px;
+}
   
 .GridContainer{
  align-items: center;
