@@ -375,67 +375,72 @@ scroll-behavior: smooth;
       padding-bottom: 20px;
       text-decoration: underline rgb(87, 111, 235);
       text-underline-offset: 25px;
-      margin-bottom: 50px;
+      margin-bottom: 100px;
   }
  
 .GridContainer{
     display: grid;
     align-items: left;
     grid-template-columns: auto auto auto;
-    align-items: center;
-    justify-content: space-around; 
+    justify-content:space-around;
+    margin-bottom: 60px;
 }
 .Grid2Container{
     display: grid;
     align-items: left;
     grid-template-columns: auto auto;
-    align-items: center;
     justify-content: space-around;
 }
-  .FinalYearCard{
-      text-align: center;
-      box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+.GridContainer h4 p,.Grid2Container h4 p{
+  padding-left: 14px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.containerCard{
+  padding: 12px 18px;
+} 
+  .GameCard{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.1s;
     width: 95%;
-    margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transform: scale(1);
     opacity: 1;
-    transition: all 150ms ease-in-out; 
+    transition: all 1ms ease-in-out; 
   }
-  .FinalYearCard:hover {
+  .GameCard:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     z-index: 10;
   }
-  .gamecard{
-    text-align: center;
+  
+  .BookCard{
+    
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
+  transition: 0.1s;
   width: 95%;
-  margin-top: 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transform: scale(1);
   opacity: 1;
-  transition: all 150ms ease-in-out;
+  transition: all 1ms ease-in-out;
   }
-  .gamecard:hover {
+  .BookCard:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     z-index: 10;
   }
   .websitecard{
-    text-align: center;
+    
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
+  transition: 0.1s;
   width: 95%;
-  margin-top: 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transform: scale(1);
     opacity: 1;
-    transition: all 150ms ease-in-out;
+    transition: all 1ms ease-in-out;
   }
   .websitecard:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -443,43 +448,39 @@ scroll-behavior: smooth;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     z-index: 10;
   }
-  .css_effectcard{
-    text-align: center;
+  .EmployeeCard{
+    
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
+  transition: 0.1s;
   width: 95%;
-  margin-top: 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transform: scale(1);
   opacity: 1;
-  transition: all 150ms ease-in-out;
+  transition: all 1ms ease-in-out;
   }
-  .css_effectcard:hover {
+  .EmployeeCard:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     z-index: 10;
   }
   .clockcard{
-    text-align: center;
+    
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
+  transition: 0.1s;
   width: 95%;
-  margin-top: 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transform: scale(1);
     opacity: 1;
-    transition: all 150ms ease-in-out;
+    transition: all 1ms ease-in-out;
   }
   .clockcard:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     z-index: 10;
-  }
-  .containerCard{
-    padding: 10px 16px;
-}
+  } 
+  
 .Skii h1{
   font-family: sans-serif;
  
@@ -826,15 +827,18 @@ h1 img{
  align-items: center;
  justify-content: center;
   grid-template-columns: auto;
-  justify-content: center;
-  width: 100%;
+  justify-content: space-around;
+}
+.GameCard, .BookCard, .EmployeeCard{
+  margin-bottom: 50px;
 }
 .Grid2Container{
   align-items: center;
  justify-content: center;
   grid-template-columns: auto;
-  justify-content: center;
+  justify-content: space-around;
   width: 100%;
+  margin-bottom: 5px;
 }
 .Skii h1{
   justify-content: center;
@@ -1027,6 +1031,9 @@ align-items: center;
 justify-content: center;
 grid-template-columns: auto;
 }
+.GameCard, .BookCard, .EmployeeCard{
+  margin-bottom: 50px;
+}
 .Grid2Container{
 align-items: center;
 justify-content: center;
@@ -1179,6 +1186,9 @@ align-items: center;
 justify-content: center;
 grid-template-columns: auto;
 }
+.GameCard, .BookCard, .EmployeeCard{
+  margin-bottom: 50px;
+}
 .Grid2Container{
 align-items: center;
 justify-content: center;
@@ -1330,6 +1340,9 @@ justify-content: center;
 align-items: center;
 justify-content: center;
 grid-template-columns: auto;
+}
+.GameCard, .BookCard, .EmployeeCard{
+  margin-bottom: 50px;
 }
 .Grid2Container{
 align-items: center;
@@ -1702,134 +1715,122 @@ margin-right: 14%;
 }
 
 .project{
-    margin-bottom: 4cm;
+  margin-bottom: 4cm;
 }
 .My_Project{
-  font-family: sans-serif;
-  justify-content: center;
-    text-align: center;
-      font-size: 40px;
-      font-weight: bold;
-      padding-bottom: 20px;
-      text-decoration: underline rgb(87, 111, 235);
-      text-underline-offset: 25px;
-      margin-bottom: 50px;
-  }
- 
+font-family: sans-serif;
+justify-content: center;
+  text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-decoration: underline rgb(87, 111, 235);
+    text-underline-offset: 25px;
+    margin-bottom: 100px;
+}
+
 .GridContainer{
-    
-    display: grid;
-    align-items: left;
-    grid-template-columns: auto auto auto;
-    align-items: center;
-    justify-content: space-around;
-   
-    
+  display: grid;
+  align-items: left;
+  grid-template-columns: auto auto auto;
+  justify-content:space-around;
+  margin-bottom: 60px;
 }
 .Grid2Container{
-    display: grid;
-    align-items: left;
-    grid-template-columns: auto auto;
-    align-items: center;
-    justify-content: space-around;
-    
+  display: grid;
+  align-items: left;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
 }
-  .FinalYearCard{
-      text-align: center;
-      box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 95%;
-    margin-top: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transform: scale(1);
-    opacity: 1;
-    transition: all 150ms ease-in-out; 
-   
-    
-  }
-  .FinalYearCard:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    z-index: 10;
-  }
-
-  .gamecard{
-    text-align: center;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
+.GridContainer h4 p,.Grid2Container h4 p{
+padding-left: 14px;
+font-family: sans-serif;
+font-size: 20px;
+font-weight: bold;
+}
+.containerCard{
+padding: 12px 18px;
+} 
+.GameCard{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  transition: 0.1s;
   width: 95%;
-  margin-top: 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transform: scale(1);
   opacity: 1;
-  transition: all 150ms ease-in-out;
-  }
-  .gamecard:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    z-index: 10;
-  }
-
-  .websitecard{
-    text-align: center;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 95%;
-  margin-top: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transform: scale(1);
-    opacity: 1;
-    transition: all 150ms ease-in-out;
-  }
-  .websitecard:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    z-index: 10;
-  }
-
-  .css_effectcard{
-    text-align: center;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 95%;
-  margin-top: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transform: scale(1);
-  opacity: 1;
-  transition: all 150ms ease-in-out;
-  }
-  .css_effectcard:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    z-index: 10;
-  }
-
-  .clockcard{
-    text-align: center;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 95%;
-  margin-top: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transform: scale(1);
-    opacity: 1;
-    transition: all 150ms ease-in-out;
-  }
-  .clockcard:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    z-index: 10;
-  }
-
-  .containerCard{
-    padding: 10px 16px;
+  transition: all 1ms ease-in-out; 
+}
+.GameCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 10;
 }
 
+.BookCard{
+  
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+transition: 0.1s;
+width: 95%;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transform: scale(1);
+opacity: 1;
+transition: all 1ms ease-in-out;
+}
+.BookCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 10;
+}
+.websitecard{
+  
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+transition: 0.1s;
+width: 95%;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transform: scale(1);
+  opacity: 1;
+  transition: all 1ms ease-in-out;
+}
+.websitecard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 10;
+}
+.EmployeeCard{
+  
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+transition: 0.1s;
+width: 95%;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transform: scale(1);
+opacity: 1;
+transition: all 1ms ease-in-out;
+}
+.EmployeeCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 10;
+}
+.clockcard{
+  
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+transition: 0.1s;
+width: 95%;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transform: scale(1);
+  opacity: 1;
+  transition: all 1ms ease-in-out;
+}
+.clockcard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 10;
+} 
 .Skii h1{
   font-family: sans-serif;
  
